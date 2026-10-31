@@ -41,10 +41,6 @@ info = das3.query( uri ...
 das3.query('uiowa/juno/wav/survey', 'time', {'2021-02-21', '2021-02-22'}, 'b', ...
            'dryrun', true)                 % what would be asked, no network
 
-das3.root('space.physics.uiowa.edu/das/stream/source/tracers.json')  % a project's own root
-das3.node('tracers-2/spice')                                          % paths are relative to it
-das3.root('default')                                                  % back to the federated catalog
-
 das3.config('timeout', 30)
 das3.config('start', './my_node.json=site:/uiowa/tracers')   % offline or test catalogs
 ```
