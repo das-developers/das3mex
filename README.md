@@ -1,8 +1,9 @@
 # das3mex
 
 MATLAB bindings for the [das2C](https://github.com/das-developers/das2C)
-library: pull das data straight into RAM from dasFlex servers by catalog
-path, no server URLs, no query strings.
+library: stream values straight into RAM from servers using flexible
+catalog nodes. No URLs embedded in user code, no hard-locked server
+protocol.
 
 Status: the catalog side works (browse, describe, query to file, logins).
 Reading streams into MATLAB structures is next.  See
