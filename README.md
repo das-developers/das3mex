@@ -6,8 +6,7 @@ catalog nodes. No URLs embedded in user code, no hard-locked server
 protocol.
 
 Status: the catalog side works (browse, describe, query to file, logins).
-Reading streams into MATLAB structures is next.  See
-[docs/plan.md](docs/plan.md).
+Reading streams into MATLAB structures is next. 
 
 ## Build
 
